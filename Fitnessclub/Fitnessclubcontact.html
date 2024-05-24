@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fitnessclub</title>
+    <link rel="stylesheet" type="text/css" href="Fitness.css">
+</head>
+<body>
+    <header>
+        <h1>Welkom bij Fitness club</h1>
+        <nav>
+            <section id="menu">
+                <ul>
+                    <li><a href="Fitnessclub.html">Home</a></li>
+                    <li><a href="Fitnessclubover.html">Over ons</a></li>
+                    <li><a href="Fitnessclubdienst.html">Diensten</a></li>
+                    <li><a href="Fitnessclubschema.html">Schema's</a></li>
+                    <li><a href="Fitnessclubcontact.html">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <section id="contact">
+        <main>
+            <b>Neem contact met ons op</b>
+            <form action="verwerk_contact.php" method="post">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam"  rows="4" cols="50" required><br><br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"  rows="4" cols="50" required><br><br>
+                
+                <label for="geslacht">Geslacht:</label>
+                <input type="radio" id="man" name="geslacht"  rows="4" cols="50" value="man">
+                <label for="man">Man</label>
+                <input type="radio" id="vrouw" name="geslacht"  rows="4" cols="50" value="vrouw">
+                <label for="vrouw">Vrouw</label><br><br>
+                
+                <label for="bericht">Bericht:</label>
+                <textarea id="bericht" name="bericht" rows="4" cols="50" required></textarea><br><br>
+                
+                <label for="lidmaatschap">Lidmaatschap:</label>
+                <select id="lidmaatschap" name="lidmaatschap" required>
+                    <option value="basic">Basic</option>
+                </select><br><br>
+                
+                <input id="jup"type="submit" value="Submit">
+            </form>
+        </main>
+    </section>
+    <footer>
+        <p>© 2024 Fitness Club. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
