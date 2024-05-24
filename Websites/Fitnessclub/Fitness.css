@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8E8E8;
+    color: white;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+color: white;
+}
+header {
+    background-color: #2C3E50;
+    padding: 5px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+main {
+    padding: 25px;
+}
+#menu{
+
+}
+#extra{
+    margin-bottom: 12px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+#contact{
+        margin-bottom: 0px;
+    background-color: white;
+    padding: 0px;
+    border-radius:10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+#jup{
+    background-color: #18BC9C;
+    color: white;
+}
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#fitness {
+  width: 100%
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 30;
+  font-weight: bold;
+}
+
+p2 {
+  font-family: Arial;
+  color: white;
+}
+
+p3 {
+  font-family: Arial;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
